@@ -1,0 +1,83 @@
+# ============================================================
+#  Safe-Lang — Requirements & Dependencies
+# ============================================================
+#
+#  Safe-Lang is a pure Java project with ZERO external dependencies.
+#  All functionality is built using the Java Standard Library.
+#
+# ============================================================
+
+
+# -----------------------------------------------------------
+#  SYSTEM REQUIREMENTS
+# -----------------------------------------------------------
+
+# Java Development Kit (JDK)
+# - Minimum Version : JDK 8 (1.8)
+# - Recommended     : JDK 17 or later (LTS)
+# - Download        : https://www.oracle.com/java/technologies/downloads/
+#                     https://openjdk.org/
+#
+# Verify installation:
+#   $ java -version
+#   $ javac -version
+
+
+# -----------------------------------------------------------
+#  JAVA STANDARD LIBRARY MODULES USED
+# -----------------------------------------------------------
+
+# Core Language & Utilities
+java.lang                          # Core classes (String, Integer, Math, Runtime, etc.)
+java.util                          # Collections (List, ArrayList, HashMap, Map, etc.)
+java.io                            # File I/O (BufferedReader, FileReader, IOException)
+
+# GUI / Swing (for SafeLangGUI IDE)
+javax.swing                        # JFrame, JPanel, JButton, JTextPane, JTable, etc.
+javax.swing.border                 # EmptyBorder, LineBorder
+javax.swing.event                  # DocumentListener, DocumentEvent
+javax.swing.plaf.basic             # BasicSplitPaneUI, BasicSplitPaneDivider, BasicScrollBarUI
+javax.swing.table                  # DefaultTableModel, DefaultTableCellRenderer, JTableHeader
+javax.swing.text                   # StyledDocument, Style, StyleConstants, BadLocationException
+
+# AWT (Abstract Window Toolkit)
+java.awt                           # Color, Font, Graphics, Graphics2D, Dimension, etc.
+java.awt.event                     # ActionListener, ActionEvent, MouseAdapter, MouseEvent
+
+# Regex
+java.util.regex                    # Pattern, Matcher (for syntax highlighting)
+
+
+# -----------------------------------------------------------
+#  EXTERNAL DEPENDENCIES
+# -----------------------------------------------------------
+
+# None — Safe-Lang has no external dependencies.
+# No Maven, Gradle, or third-party JAR files are required.
+
+
+# -----------------------------------------------------------
+#  BUILD & RUN COMMANDS
+# -----------------------------------------------------------
+
+# Compile all source files:
+#   $ javac *.java
+#
+# Run the GUI IDE:
+#   $ java SafeLangGUI
+#
+# Run the CLI mode (reads from f1.txt):
+#   $ java Main
+
+
+# -----------------------------------------------------------
+#  DEVELOPMENT TOOLS (Optional)
+# -----------------------------------------------------------
+
+# IDE (any Java-compatible IDE):
+# - IntelliJ IDEA   : https://www.jetbrains.com/idea/
+# - Eclipse          : https://www.eclipse.org/
+# - VS Code + Java   : https://code.visualstudio.com/
+#
+# Version Control:
+# - Git              : https://git-scm.com/
