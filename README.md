@@ -380,15 +380,9 @@ Safe-Lang provides clear, descriptive runtime error messages:
 
 ## 📸 Screenshots
 
-> _Launch the IDE with `java SafeLangGUI` to see the dark-themed editor in action._
+![Safe-Lang IDE - Dark themed editor with code editor, token table, and output console](image.png)
 
----
-
-## 🧑‍💻 Author
-
-**Lucky Singh Rawat**
-
-- GitHub: [LuckySinghRawat](https://github.com/LuckySinghRawat)
+*Safe-Lang IDE featuring the Code Editor with syntax highlighting, Tokens Table, and Output Console.*
 
 ---
 
