@@ -1,0 +1,35 @@
+
+Safelet x = 10
+Safelet y = 5
+
+Safelet z = (x + y) * 2
+Safeprint z
+
+Safelet neg = -x + y
+Safeprint neg
+
+x = 100
+Safeprint x
+
+Safeif x > 50 {
+    Safeprint 1
+} Safeelse {
+    Safeprint 0
+}
+
+Safeif z == 30 {
+    Safeprint 999
+}
+
+Safeif neg != 0 {
+    Safeprint neg
+}
+
+Safelet count = 5
+Safewhile count > 0 {
+    Safeprint count
+    count = count - 1
+}
+
+Safelet result = (x + y) * (z - neg)
+Safeprint result
